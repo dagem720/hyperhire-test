@@ -1,3 +1,5 @@
+import { NextApiRequest, NextApiResponse } from 'next';
+
 const users = [
   {
     id: 1,
@@ -19,6 +21,6 @@ const users = [
   },
 ];
 
-export default function handler(req, res) {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   res.status(200).json(users);
 }
