@@ -16,7 +16,7 @@ const FooterSection = () => {
         className='w-24'
       />
 
-      <div className='flex flex-col lg:flex-row justify-between mt-6'>
+      <div className='flex flex-col lg:flex-row gap-x-3 justify-between mt-6'>
         <div className='flex flex-col gap-y-4'>
           <span className='font-bold text-sm'>
             우리는 국가의 장벽을 넘어 최고의 인재를 매 <br /> 칭해드립니다.

@@ -15,17 +15,17 @@ const HeaderSection = () => {
           </MenuButton>
           <MenuItems anchor='bottom' className='bg-white p-4 rounded-lg'>
             <MenuItem>
-              <a className='block text-[#344054] p-1 data-[focus]:bg-blue-100'>
+              <a className='block cursor-pointer text-[#344054] p-1 data-[focus]:bg-blue-100'>
                 해외 개발자 원격 채용
               </a>
             </MenuItem>
             <MenuItem>
-              <a className='block text-[#344054] p-1 data-[focus]:bg-blue-100'>
+              <a className='block cursor-pointer text-[#344054] p-1 data-[focus]:bg-blue-100'>
                 외국인 원격 채용 (비개발 직군)
               </a>
             </MenuItem>
             <MenuItem>
-              <a className='block text-[#344054] p-1 data-[focus]:bg-blue-100'>
+              <a className='block cursor-pointer text-[#344054] p-1 data-[focus]:bg-blue-100'>
                 한국어 가능 외국인 채용
               </a>
             </MenuItem>
